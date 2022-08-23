@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    background-color: #cdac81ab;
+}
+
+@font-face {
+    font-family: "English";
+    src: local("English"), url(./assets/font/Cinzel-VariableFont_wght.ttf) format("truetype");  
+}
+
+@font-face {
+    font-family: "fon";
+    src: local("farsi"), url(./assets/font/IBMPlexSansArabic-Regular.ttf) format("truetype");  
+}
