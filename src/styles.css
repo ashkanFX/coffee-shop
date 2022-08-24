@@ -1,7 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 body{
     margin: 0;
-    background-color: #cdac81ab;
+    background-color: #CDAC81;
+    min-height:100vh;
 }
 
 @font-face {
