@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AdminProductComponent } from './admin-product/admin-product.component';
 import { FooterComponent } from './footer/footer.component';
+import {ImageModule} from 'primeng/image';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
+    ImageModule,
     ButtonModule,
     AppRoutingModule
   ],
