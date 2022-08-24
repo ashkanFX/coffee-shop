@@ -2,7 +2,8 @@
 body{
     margin: 0;
     background-color: #CDAC81;
-    min-height:100vh;
+    min-height: 100vh;
+    padding: 0%;
 }
 
 @font-face {
