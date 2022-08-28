@@ -45,13 +45,16 @@
 
                            
                             </div>
-                            <div class="field col-12 md:col-3">
-                                <label for="minmax-buttons">تعدد</label>
-                                <p-inputNumber  mode="decimal" [showButtons]="true" inputId="minmax-buttons" [min]="0" [max]="100">
+                            <div class="col-12 md:col-6 lg:col-4">
+                            <div class="">
+                                <label for="vertical" style="display: block">Vertical</label>
+                                <p-inputNumber  [showButtons]="true" buttonLayout="vertical" spinnerMode="vertical" inputId="vertical"
+                                decrementButtonClass="p-button-secondary" incrementButtonClass="p-button-secondary" incrementButtonIcon="pi pi-plus" decrementButtonIcon="pi pi-minus">
                                 </p-inputNumber>
                             </div>
+                        </div>
+
                             <p dir="ltr" class="text-primary  text-right text-xl font-medium"  style="font-family:fon ;"  style="font-family:fon ;" >۱۲۰۰۰۰۰ ریال</p>
-                       
                 </div>
             </div>  
         </div>
